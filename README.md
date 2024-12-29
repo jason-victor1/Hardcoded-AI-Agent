@@ -102,19 +102,19 @@ print(response)
 
 ### **Prompt Construction**
 - The weather data is combined with a natural language question, resulting in a prompt like:
-  `
+  ```text
   Should I take an umbrella when going out today in
   California based on the following weather conditions: sunny?
-  `
+  ```
 
 ### **Language Model Interaction**
 - The prompt is sent to GPT-4 via the `generate_text_basic` function, which generates a response based on the weather condition.
 
 ### **Output**
 - The agent prints the generated response, such as:
-`
+```text
 Based on the provided weather condition being sunny for today in California, you might not need to take an umbrella with you as it isn't likely to rain. Nevertheless, some people use umbrellas to protect themselves from intense sun rays. Therefore, it's ultimately your choice.
-`
+```
   
 ---
 
